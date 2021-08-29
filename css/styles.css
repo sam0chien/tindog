@@ -1,0 +1,170 @@
+body {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+}
+
+p {
+color: #8f8f8f;}
+
+/* Headings */
+
+.big-heading {
+font-family: 'Montserrat', sans-serif;
+size: 3.5rem;
+font-weight: 700;
+line-height: 1.5;
+}
+
+.section-heading {
+font-size: 3rem;
+font-weight: 600;
+line-height: 1.5;
+}
+
+/* Container */
+
+.container-fluid{
+padding: 5% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+background-color: #ff4c68;
+color: #fff;
+}
+
+.white-section {
+background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+font-family: 'Ubuntu', sans-serif;
+font-size: 2.5rem;
+font-weight: 700;
+padding-left: 5rem;
+}
+
+.nav-item {
+padding: 0 18px;
+}
+
+.nav-link {
+font-size: 1.2rem;
+margin-left: 65px;
+}
+
+/* Download Button */
+
+.download-button {
+margin: 5% 3% 5% 0;
+}
+
+/* Title */
+
+#title .container-fluid {
+padding: 3% 15% 5%;
+}
+
+/* Title Image */
+
+.title-image {
+transform: rotate(25deg);
+width: 17%;
+position: absolute;
+right: 30%
+}
+
+/* Feature */
+
+#features {
+position: relative;
+}
+
+.icon {
+color: #ef8172;
+margin: 1rem;
+}
+
+.icon:hover {
+color: #ff4c68;
+}
+
+/* Testimonial */
+
+#testimonials {
+background-color: #ef8172;
+}
+
+.testimonial-image {
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
+
+.testimonial-text {
+font-size: 3rem;
+font-weight: 600;
+line-height: 1.5;
+}
+
+#press {
+background-color: #ef8172;
+padding-bottom: 5%;
+}
+
+.press-logo {
+width: 15%;
+margin: 20px 20px 15px;}
+
+/* Pricing */
+
+#pricing {
+padding: 100px;
+}
+
+.card-body p {
+font-weight: bold;}
+
+.pricing-column {
+padding: 3% 2%;}
+
+.price-text {
+font-size: 3rem;
+font-weight: 600;
+line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+#title {
+text-align: center;
+}
+.title-image {
+position: static;
+transform: rotate(0);
+width: 60%;
+}
+}
+
+/* CTA */
+
+.download-button2 {
+margin: 1rem 1rem;
+}
+
+/* Footer */
+
+.social {
+padding: 0rem 1rem;
+}
